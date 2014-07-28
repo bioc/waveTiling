@@ -123,7 +123,7 @@ length(sigGenomeRegionsCompare)
 
 The \Rfunction{getGenomicRegions} accessor outputs a \Rcode{list} of \Rcode{IRanges} objects \cite{pagesIRanges} denoting the start and end position of each significant region. The first element in the \Rcode{list} always gives the significant regions for the mean expression over all arrays (transcript discovery). Elements 2 to 16 in \Robject{sigGenomeRegions} give the differentially expressed regions between any pair of contrasts between different time points. The order is always 2-1, 3-1, 3-2, 4-1,... Hence, \Rcode{sigGenomeRegions[[2]]} gives the differentially expressed regions between time point 2 and time point 1.
 
-If information on the annotation of the studied organism is available, we can extract both significantly affected genes with \Rfunction{getSigGenes}, and the non-annotated regions with \Rfunction{getNonAnnotatedRegions}. Both functions output a \Rclass{list} of \Rclass{GRanges} objects \cite{aboyoun}. The annotation info can be obtained from ab appropriate object of class TranscriptDb representing an annotation database generated from BioMart. For the current data we make use of the \Rpackage{TxDb.Athaliana.BioMart.plantsmart12} package \cite{carlson}.
+If information on the annotation of the studied organism is available, we can extract both significantly affected genes with \Rfunction{getSigGenes}, and the non-annotated regions with \Rfunction{getNonAnnotatedRegions}. Both functions output a \Rclass{list} of \Rclass{GRanges} objects \cite{aboyoun}. The annotation info can be obtained from ab appropriate object of class TxDb representing an annotation database generated from BioMart. For the current data we make use of the \Rpackage{TxDb.Athaliana.BioMart.plantsmart12} package \cite{carlson}.
 
 <<>>=
 library(TxDb.Athaliana.BioMart.plantsmart12)
@@ -280,7 +280,7 @@ GenomicRanges: Representation and manipulation of genomic intervals. [R package 
 
 \bibitem{carlson}
 Carlson M.
-TxDb.Athaliana.BioMart.plantsmart12: Annotation package for TranscriptDb object(s). [R package version 2.7.1]
+TxDb.Athaliana.BioMart.plantsmart12: Annotation package for TxDb object(s). [R package version 2.7.1]
 
 \bibitem{durinck}
 Durinck S and Bullard J.

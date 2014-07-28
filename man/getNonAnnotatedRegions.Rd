@@ -10,7 +10,7 @@
 \arguments{
   \item{fit}{object of class \code{WfmFit}}
   \item{inf}{object of class \code{WfmInf}}
-  \item{biomartObj}{object of class TranscriptDb representing an annotation database generated from BioMart.}
+  \item{biomartObj}{object of class TxDb representing an annotation database generated from BioMart.}
 }
 
 \value{GRangesList object with the non-annotated regions. The first element gives the regions with no annotation overlap on the strand used in the analysis, the second element gives the regions with no annotation overlap on both strands.}
