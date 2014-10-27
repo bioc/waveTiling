@@ -19,12 +19,6 @@ importMethodsFrom(Biostrings, complement, matchPDict, PDict,
 
 importMethodsFrom(GenomicRanges, seqnames)
 
-importMethodsFrom(IRanges, as.matrix, cbind, findOverlaps, ifelse, intersect,
-                  lapply, mad, Map, mean, median, ncol, nrow, order, paste,
-                  pintersect, pmin,queryHits, rbind, reduce, Reduce, Rle, 
-                  rownames,"rownames<-", sapply, stack, start, subjectHits,
-                  subseq, t, table, tapply, unique, unlist, values,
-                  "values<-", which, width)
 
 importMethodsFrom(methods, initialize, show)
 
@@ -41,7 +35,7 @@ importFrom(preprocessCore, normalize.quantiles)
 
 importFrom(GenomicRanges, GRanges, GRangesList)
 
-importFrom(IRanges, IRanges)
+import(IRanges)
 
 importFrom(methods, callNextMethod, new)
 
