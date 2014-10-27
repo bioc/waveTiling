@@ -11,7 +11,7 @@ Depends: oligo, oligoClasses, Biobase, Biostrings, GenomeGraphs
 Imports: methods, affy, preprocessCore, GenomicRanges, waveslim,
         IRanges
 Suggests: BSgenome, BSgenome.Athaliana.TAIR.TAIR9, waveTilingData,
-        pd.atdschip.tiling, TxDb.Athaliana.BioMart.plantsmart12
+        pd.atdschip.tiling, TxDb.Athaliana.BioMart.plantsmart22
 Description: This package is designed to conduct transcriptome analysis
         for tiling arrays based on fast wavelet-based functional
         models.
