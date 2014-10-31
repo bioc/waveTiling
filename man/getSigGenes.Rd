@@ -19,10 +19,10 @@
 
 \examples{
   library(waveTilingData)
-  library(TxDb.Athaliana.BioMart.plantsmart12)
+  library(TxDb.Athaliana.BioMart.plantsmart22)
   data(leafdevFit)
   data(leafdevInfCompare)
-  sigGenesCompare <- getSigGenes(fit=leafdevFit,inf=leafdevInfCompare,	biomartObj=TxDb.Athaliana.BioMart.plantsmart12)
+  sigGenesCompare <- getSigGenes(fit=leafdevFit,inf=leafdevInfCompare,	biomartObj=TxDb.Athaliana.BioMart.plantsmart22)
   head(sigGenesCompare[[2]])
 }
 
