@@ -35,14 +35,14 @@ BMC Bioinformatics 2009, 10:Article 2.
 
 \examples{
   library(waveTilingData)
-  library(TxDb.Athaliana.BioMart.plantsmart12)
+  library(TxDb.Athaliana.BioMart.plantsmart22)
   data(leafdevFit)
   data(leafdevInfCompare)
-  trs <- transcripts(TxDb.Athaliana.BioMart.plantsmart12)
+  trs <- transcripts(TxDb.Athaliana.BioMart.plantsmart22)
   sel <- trs[elementMetadata(trs)$tx_name \%in\% "AT1G62500.1",]
   start <- start(ranges(sel))-2000
   end <- end(ranges(sel))+2000
-  plotWfm(fit=leafdevFit,inf=leafdevInfCompare,biomartObj=TxDb.Athaliana.BioMart.plantsmart12,minPos=start,maxPos=end,two.strand=TRUE,plotData=TRUE,plotMean=FALSE,tracks=c(1,2,6,10,11))
+  plotWfm(fit=leafdevFit,inf=leafdevInfCompare,biomartObj=TxDb.Athaliana.BioMart.plantsmart22,minPos=start,maxPos=end,two.strand=TRUE,plotData=TRUE,plotMean=FALSE,tracks=c(1,2,6,10,11))
 }
 
 \keyword{hplot}

@@ -19,10 +19,10 @@
 
 \examples{
   library(waveTilingData)
-  library(TxDb.Athaliana.BioMart.plantsmart12)
+  library(TxDb.Athaliana.BioMart.plantsmart22)
   data(leafdevFit)
   data(leafdevInfCompare)
-  nonAnnoCompare <- getNonAnnotatedRegions(fit=leafdevFit,inf=leafdevInfCompare,	biomartObj=TxDb.Athaliana.BioMart.plantsmart12)
+  nonAnnoCompare <- getNonAnnotatedRegions(fit=leafdevFit,inf=leafdevInfCompare,	biomartObj=TxDb.Athaliana.BioMart.plantsmart22)
   nonAnnoCompare
 }
 
