@@ -1,5 +1,5 @@
 Package: waveTiling
-Version: 1.29.0
+Version: 1.29.1
 Date: 2012-05-14
 License: GPL (>=2)
 Title: Wavelet-Based Models for Tiling Array Transcriptome Analysis
@@ -15,7 +15,7 @@ Suggests: BSgenome, BSgenome.Athaliana.TAIR.TAIR9, waveTilingData,
 Description: This package is designed to conduct transcriptome analysis
         for tiling arrays based on fast wavelet-based functional
         models.
-Collate: allClasses.R allGenerics.R helperFunctions.R
+Collate: zzz.R allClasses.R allGenerics.R helperFunctions.R
         initialize-methods.R methods-MapFilterProbe.R
         methods-WaveTilingFeatureSet.R methods-WfmFit.R
         methods-WfmInf.R show-methods.R
@@ -25,3 +25,4 @@ LazyData:
 Packaged: 2012-06-04 11:54:16 UTC; kdebeuf
 biocViews: Microarray, DifferentialExpression, TimeCourse,
         GeneExpression
+PackageStatus: Deprecated
